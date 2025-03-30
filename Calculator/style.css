@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Winky Sans", sans-serif;
+}
+
+body {
+    background-color: #434549; 
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.outside-box {
+    width: 350px;
+    padding: 20px;
+    min-height: 350px; /* Ensures enough space */
+    background: #697c8b;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(115, 163, 207);
+}
+
+.output-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#display {
+    width: 300px;
+    height: 50px;
+    background-color: #4c454c;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-left: 7px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    color: white;
+}
+
+.buttons {
+    height: 230px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1cbd4;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    font-size: 1.1rem;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+
+.button-operator {
+    background-color: #dcb784;
+}
+
+.button-clear {
+    background-color: #d27a77;
+}
+
+.button1 {
+    visibility: hidden;
+}
+
+.button:hover { 
+    background-color: #3dcbb8; 
+    color: #ffffff; 
+    box-shadow: 0px 0px 20px #4bc9f3; 
+}
+
